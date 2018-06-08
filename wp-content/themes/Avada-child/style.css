@@ -1,0 +1,83 @@
+/* 
+Theme Name:		 Avada Child Theme
+Theme URI:		 http://www.websitebundles.com/
+Description:	 Theme by Site <a href=\"http://childthemegenerator.com/\">http://childthemegenerator.com/</a>
+Author:			 WebsiteBundles
+Author URI:		 http://childthemegenerator.com/
+Template:		 Avada
+Version:		 1.0.0
+Text Domain:	 Avada-child
+-------------------------------------------------------------- */
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+body, .post-content p { line-height: 1.7; text-align: justify; }
+
+#side-header .fusion-logo, .fusion-header .fusion-logo { margin-top: 20px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; }
+.fusion-main-menu .fusion-dropdown-menu .sub-menu li a, .fusion-main-menu .sub-menu li a, .fusion-megamenu-wrapper li .fusion-megamenu-title-disabled { padding-top: 10px; padding-bottom: 10px; font-size: 13px; line-height: 16px; }
+
+@font-face { font-family: 'Oceania'; src: url('fonts/oceania-bold-webfont.woff2') format('woff2'), url('fonts/oceania-bold-webfont.woff') format('woff'); font-weight: bold; font-style: normal; }
+
+@font-face { font-family: 'Oceania'; src: url('fonts/oceania-light-webfont.woff2') format('woff2'), url('fonts/oceania-light-webfont.woff') format('woff'); font-weight: 300; font-style: normal; }
+
+@font-face { font-family: 'Oceania'; src: url('fonts/oceania-medium-webfont.woff2') format('woff2'), url('fonts/oceania-medium-webfont.woff') format('woff'); font-weight: 600; font-style: normal; }
+
+@font-face { font-family: 'Oceania'; src: url('fonts/oceania-regular-webfont.woff2') format('woff2'), url('fonts/oceania-regular-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+#main .fusion-portfolio h2, #main .post h2, #wrapper #main .post h2, #wrapper #main .post-content .fusion-title h2, #wrapper #main .post-content .title h2, #wrapper .fusion-title h2, #wrapper .post-content h2, #wrapper .title h2, .fusion-modal h2, .fusion-widget-area h2, h2.entry-title { color: #232b7a; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-weight: bold; letter-spacing: -2px; line-height: initial; margin-bottom: 15px; }
+#main .fusion-portfolio h3, #main .post h3, #wrapper #main .post h3, #wrapper #main .post-content .fusion-title h3, #wrapper #main .post-content .title h3, #wrapper .fusion-title h3, #wrapper .post-content h3, #wrapper .title h3, .fusion-modal h3, .fusion-widget-area h3, h3.entry-title { color: #232b7a; font-family: 'Oceania'; font-weight: 300; line-height: initial; }
+#main .fusion-portfolio h4, #main .post h4, #wrapper #main .post h4, #wrapper #main .post-content .fusion-title h4, #wrapper #main .post-content .title h4, #wrapper .fusion-title h4, #wrapper .post-content h4, #wrapper .title h4, .fusion-modal h4, .fusion-widget-area h4, h4.entry-title { color: #232b7a; font-family: 'Oceania'; font-weight: bold; }
+#main .fusion-portfolio h5, #main .post h5, #wrapper #main .post h5, #wrapper #main .post-content .fusion-title h5, #wrapper #main .post-content .title h5, #wrapper .fusion-title h5, #wrapper .post-content h5, #wrapper .title h5, .fusion-modal h5, .fusion-widget-area h5, h5.entry-title { color: #232b7a; font-family: 'Oceania'; font-weight: bold; }
+#main .fusion-portfolio h6, #main .post h6, #wrapper #main .post h6, #wrapper #main .post-content .fusion-title h6, #wrapper #main .post-content .title h6, #wrapper .fusion-title h6, #wrapper .post-content h6, #wrapper .title h6, .fusion-modal h6, .fusion-widget-area h6, h6.entry-title { color: #232b7a; font-family: 'Oceania'; font-weight: bold; }
+
+#main .post h2 a, .about-author .title a, .fusion-content-widget-area .widget .recentcomments, .fusion-content-widget-area .widget li a, .fusion-content-widget-area .widget_categories li, .fusion-load-more-button, .fusion-rollover a, .project-content .project-info .project-info-box a, .shop_attributes tr th, .single-navigation a[rel="next"]::after, .single-navigation a[rel="prev"]::before, body a, body a::after, body a::before { color: #232b7a; }
+
+
+/*.fusion-main-menu .sub-menu { bottom: 90px; width: 250px !important; }*/
+.fusion-sticky-shadow .fusion-main-menu .sub-menu { bottom: auto; }
+.fusion-sticky-shadow .fusion-body .fusion-main-menu > ul > li > a, .fusion-sticky-shadow .fusion-body .fusion-main-menu li.current_page_item > a { color: #ffffff; }
+.fusion-sticky-shadow .fusion-body .fusion-main-menu > ul > li.current_page_item > a, .fusion-sticky-shadow .fusion-body .fusion-main-menu li.current_page_item > a { color: #ffffff; border-color: #ffffff; }
+
+.fusion-header-v1 .fusion-header { background-color: #ffffff; }
+.fusion-logo img { max-height: 65px; max-width: 260px; }
+.fusion-is-sticky .fusion-logo { }
+.fusion-is-sticky .fusion-logo img { width: auto; max-height: 45px !important; vertical-align: middle; opacity: 1; }
+
+#wrapper .fusion-footer-widget-area .fusion-footer-widget-column { margin-bottom: 15px; }
+#wrapper .fusion-footer-widget-area .widget_nav_menu > div > ul > li { list-style: none; padding: 0; display: inline-block; margin-left: 30px; border: 0; }
+#wrapper .fusion-footer-widget-area .widget_nav_menu > div > ul > li:first-child { margin-left: 0; }
+#wrapper .fusion-footer-widget-area .widget_nav_menu > div > ul > li a { color: #ffffff; }
+#wrapper .fusion-copyright-notice { color: #aaa; font-size: 12px; }
+
+.fusion-body .fusion-header-wrapper.fusion-is-sticky .fusion-header, .fusion-body .fusion-header-wrapper.fusion-is-sticky .fusion-secondary-main-menu { background-color: #ffffff; }
+#wrapper .fusion-body .fusion-main-menu > ul > li > a, #wrapper .fusion-body .fusion-main-menu li.current_page_item > a, #wrapper .fusion-is-sticky .fusion-main-menu > ul > li > a { color: #232b7a; }
+#wrapper .fusion-body .fusion-main-menu > ul > li.current_page_item > a, #wrapper .fusion-body .fusion-main-menu li.current_page_item > a { color: #232b7a; border-color: #232b7a; }
+.fusion-body .fusion-main-menu .fusion-last-menu-item.Destaque { }
+.fusion-body .fusion-main-menu > ul > li.Destaque > a, .fusion-is-sticky .fusion-main-menu > ul > li.Destaque > a { padding: 0 15px; color: #ffffff; background: #232b7a; font-weight: bold; font-family: 'Oceania'; font-size: 16px; line-height: 100px !important; height: 112px !important; }
+.fusion-is-sticky .fusion-main-menu > ul > li.Destaque:hover a, #wrapper .fusion-is-sticky .fusion-main-menu > ul > li.Destaque > a { color: #ffffff; }
+.fusion-body .fusion-header-wrapper.fusion-is-sticky .fusion-last-menu-item.Destaque a { line-height: 60px !important; height: 65px !important; }
+.fusion-portfolio-content-wrapper .fusion-image-wrapper .fusion-rollover { display: none; opacity: 0; }
+.fusion-portfolio-wrapper { text-align: center }
+.fusion-portfolio-wrapper .fusion-portfolio-post { float: none; display: inline-block; left: auto !important; position: relative !important; top: auto !important; }
+
+.ProdutoHome .fusion-text { max-width: 1200px; margin: 0 auto; }
+
+.flexslider .slides::before { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+
+.to-top-container #toTop { bottom: 67px; }
+
+body.has-sidebar.single-clientes #content { width:100%; }
+body.has-sidebar.single-clientes #main .sidebar { display:none !important; }
+
+@media screen and (min-width: 1200px) {
+    .DestaqueTradicao { background-position: right !important; }
+}
+
+@media screen and (max-width: 1199px) {
+    .DestaqueTradicao { background-position: center !important; }
+}
+
+@media screen and (max-width: 768px) {
+    .DestaqueTradicao { background-position: left !important; }
+}
